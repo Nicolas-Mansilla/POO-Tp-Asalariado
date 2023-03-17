@@ -1,0 +1,17 @@
+"use strict";
+exports.__esModule = true;
+var asalariado_1 = require("./asalariado");
+var empleadoProduccion_1 = require("./empleadoProduccion");
+var empleadoDistribucion_1 = require("./empleadoDistribucion");
+var asalariado1 = new asalariado_1.Asalariado("Hugo", 75567365, 25, 700000);
+var empleadoProduccion1 = new empleadoProduccion_1.EmpleadoProduccion("Mati", 34565212, 15, 150000, "mañana");
+var empleadoDistribucion1 = new empleadoDistribucion_1.EmpleadoDistribucion("Sonia", 23544744, 21, 200000, "zona oeste");
+console.log(asalariado1);
+console.log(empleadoProduccion1);
+console.log(empleadoDistribucion1);
+asalariado1.getsalario();
+empleadoProduccion1.getsalario();
+empleadoDistribucion1.getsalario();
+console.log(asalariado1);
+console.log(empleadoProduccion1);
+console.log(empleadoDistribucion1);
